@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <img id="player" src="images/Player.png" alt="P" width="0" height="0">
+  <img id="Boulder" src="images/Boulder.png" alt="P" width="0" height="0">
+  <img id="Dirt-light" src="images/Dirt.jpg" alt="P" width="0" height="0">
+  <img id="Dirt-dark" src="images/Dirt.png" alt="P" width="0" height="0">
+  <img id="Exit" src="images/Exit.png" alt="P" width="0" height="0">
+  <img id="Key" src="images/Key.png" alt="P" width="0" height="0">
+  <img id="Wall" src="images/Wall.png" alt="P" width="0" height="0">
+  <canvas id="myCanvas" width="500" height="500">
+  </canvas>
+  <div id="myfilter"></div>
+  <div id="myrestartbutton">
+    <button onclick="document.location.reload()">Restart</button>
+  </div>
+  <div style="text-align:center;width:480px;margin:auto;">
+    <button onclick="moveup()">UP</button><br><br>
+    <button onclick="moveleft()">LEFT</button>
+    <button onclick="moveright()">RIGHT</button><br><br>
+    <button onclick="movedown()">DOWN</button>
+  </div>
+  <script src="script.js" type="application/javascript"></script>
+</body>
+</html>

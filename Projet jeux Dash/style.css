@@ -1,0 +1,36 @@
+* {
+padding: 0;
+margin: 0;
+}
+canvas {
+  position: static;
+  top :0 ;
+  left:0;
+  right:0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  background:black;
+}
+#myfilter{
+  position: fixed;
+  top :-103px;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.3;
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+#myrestartbutton{
+  position: fixed;
+  top :200px;
+  left:200px;
+  right:0;
+  bottom: 0;
+  margin:auto;
+  display: none;
+}
